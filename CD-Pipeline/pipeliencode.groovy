@@ -3,7 +3,7 @@ def configLoader;
     node{
         stage 'setUp'
            configLoader = fileLoader.fromGit('CD_ConfigProperties', 
-                    'https://github.com/inutakki/webtest.git', 'master', null, '')
+                    'https://github.com/inutakki/webtest.git', 'master', '08cfb8a6-8848-4530-90c0-8b6be0588179', '')
                     
         stage 'checkout'
        
