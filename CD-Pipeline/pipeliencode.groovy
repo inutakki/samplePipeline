@@ -8,7 +8,7 @@ def configLoader;
         stage 'checkout'
        
            git ([url:'https://github.com/inutakki/webtest.git'])
-           echo "${ws}/config.xml"
+           echo "${env.WORKSPACE}/config.xml"
            
         stage 'BuildStep'
         
