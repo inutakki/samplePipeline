@@ -8,3 +8,5 @@ def getSourceFile(){
 def getProfiles(){
  return profiles
  }
+ 
+ return this;
